@@ -1,1 +1,1 @@
-# Get inspired by official Apple website
+# Got inspired by official Apple website
