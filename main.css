@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.hero {
+  height: 400vh;
+}
+
+.hero .canvas-holder {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero .canvas-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero .canvas-holder canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60vh;
+  transform: translate(-50%, -50%);
+}
+
+.skeleton {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  background-color: #eee;
+}
